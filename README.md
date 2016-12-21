@@ -1,5 +1,7 @@
 <p align="center">
-  <img src="http://thorpora.fr/wp-content/uploads/2015/03/thorpora4.4.png" width="300" alt="Thorpora - Oh My Zsh">
+  <a href="thorpora.fr">
+    <img src="http://thorpora.fr/wp-content/uploads/2015/03/thorpora4.4.png" width="300" alt="Thorpora - Oh My Zsh">
+  </a>
 </p>
 
 This is a fork of Oh My Zsh, an open source, community-driven framework for managing 
