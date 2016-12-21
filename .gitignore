@@ -1,4 +1,5 @@
 # custom files
+.idea/
 !custom/plugins/example
 !custom/example.zsh
 
