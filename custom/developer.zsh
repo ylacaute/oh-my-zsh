@@ -13,3 +13,25 @@ export PATH="${IDEA_HOME}/bin:$PATH"
 
 # Compilation flags
 export ARCHFLAGS="-arch x86_64"
+
+
+# Alias GIT
+alias gpull='git pull --rebase'
+alias gs='git status'
+alias ga='git add --all'
+alias gc='git commit'
+alias gcm='git commit -m'
+alias gca='git commit --amend --no-edit'
+alias gl="git log --graph --date=relative \
+--pretty=tformat:'%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%an %ad)%Creset'"
+alias gpush='git push'
+
+# Automatic extension program association
+alias -s c='emacs'
+alias -s cc='emacs'
+alias -s h='emacs'
+alias -s hh='emacs'
+alias -s hxx='emacs'
+alias -s hcc='emacs'
+alias -s tex='emacs'
+

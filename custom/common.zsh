@@ -115,14 +115,6 @@ alias lclean='clean; (rm -f *.aux; rm -f *.bbl; rm -f *.blg; rm -f *.out; rm -f 
 alias xkill='sudo kill -9'
 
 # Automatic extension program association
-alias -s c='emacs'
-alias -s cc='emacs'
-alias -s h='emacs'
-alias -s hh='emacs'
-alias -s hxx='emacs'
-alias -s hcc='emacs'
-alias -s tex='emacs'
-
 alias -s pdf='xpdf'
 alias -s avi='gmplayer'
 alias -s AVI='gmplayer'
