@@ -15,7 +15,7 @@ export PATH="${IDEA_HOME}/bin:$PATH"
 export ARCHFLAGS="-arch x86_64"
 
 
-# Alias GIT
+# Add new alias GIT and override some
 alias gpull='git pull --rebase'
 alias gs='git status'
 alias ga='git add --all'
@@ -24,6 +24,7 @@ alias gcm='git commit -m'
 alias gca='git commit --amend --no-edit'
 alias gl="git log --graph --date=relative --pretty=format:'%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%an %ad)%Creset'"
 alias gll="git log --graph --date=relative --pretty=format:'%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%an %ad)%Creset' --numstat"
+unalias gp # git pull from git pluging
 alias gpush='git push'
 
 # Automatic extension program association
