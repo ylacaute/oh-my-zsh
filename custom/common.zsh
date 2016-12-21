@@ -15,7 +15,7 @@ umask 022;
 
 # Pager options
 export LESSCHARSET="latin1"
-export PAGER=`which most`
+export PAGER=most
 
 # Extending PATH locations
 export PATH="$PATH:~/scripts"
