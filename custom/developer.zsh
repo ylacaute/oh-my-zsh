@@ -24,8 +24,11 @@ alias gcm='git commit -m'
 alias gca='git commit --amend --no-edit'
 alias gl="git log --graph --date=relative --pretty=format:'%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%an %ad)%Creset'"
 alias gll="git log --graph --date=relative --pretty=format:'%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%an %ad)%Creset' --numstat"
-unalias gp # git pull from git pluging
 alias gpush='git push'
+
+# Unalias some git pull from git pluging
+unalias gp 
+unalias gpu
 
 # Automatic extension program association
 alias -s c='emacs'
