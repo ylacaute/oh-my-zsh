@@ -34,6 +34,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ylacaute/oh-my-zsh/master/
 ```shell
 sh -c "$(wget https://raw.githubusercontent.com/ylacaute/oh-my-zsh/master/tools/install.sh -O -)"
 ```
+#### Screenshot
 
 <p align="center">
   <img src="http://thorpora.fr/wp-content/uploads/2016/12/oh-my-zsh-thorpora.png" alt="Thorpora - Oh My Zsh theme">
