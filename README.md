@@ -16,6 +16,8 @@ Please visit [the official repository](https://github.com/robbyrussell/oh-my-zsh
  * Add Thorpora theme
  * Modify the template in order to be ready to use
 
+It is a personnal configuration but feel free to use it.
+
 ### Basic Installation
 
 Oh My Zsh is installed by running one of the following commands in your terminal. You can install this via
@@ -32,6 +34,10 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ylacaute/oh-my-zsh/master/
 ```shell
 sh -c "$(wget https://raw.githubusercontent.com/ylacaute/oh-my-zsh/master/tools/install.sh -O -)"
 ```
+
+<p align="center">
+  <img src="http://thorpora.fr/wp-content/uploads/2016/12/oh-my-zsh-thorpora.png" alt="Thorpora - Oh My Zsh theme">
+</p>
 
 ## License
 
