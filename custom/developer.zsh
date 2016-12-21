@@ -22,8 +22,8 @@ alias ga='git add --all'
 alias gc='git commit'
 alias gcm='git commit -m'
 alias gca='git commit --amend --no-edit'
-alias gl="git log --graph --date=relative \
---pretty=tformat:'%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%an %ad)%Creset'"
+alias gl="git log --graph --date=relative --pretty=format:'%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%an %ad)%Creset'"
+alias gll="git log --graph --date=relative --pretty=format:'%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%an %ad)%Creset' --numstat"
 alias gpush='git push'
 
 # Automatic extension program association
