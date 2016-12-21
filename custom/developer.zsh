@@ -26,9 +26,11 @@ alias gl="git log --graph --date=relative --pretty=format:'%Cred%h%Creset -%C(au
 alias gll="git log --graph --date=relative --pretty=format:'%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%an %ad)%Creset' --numstat"
 alias gpush='git push'
 
-# Unalias some git pull from git pluging
+# Unalias all push alias (from git plugin)
 unalias gp 
 unalias gpu
+unalias gpv
+unalias ggpush
 
 # Automatic extension program association
 alias -s c='emacs'
