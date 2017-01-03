@@ -32,8 +32,11 @@ else
   export EDITOR='vi'
 fi
 
-# Speed cursor
-xset r rate 300 50 || true
+# Speed cursor (dont work on NAS Synology)
+unameSyno=`uname -a | grep -i synology`
+if [ "$unameSyno" == "" ]; then
+  xset r rate 300 50 || true
+fi
 
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
