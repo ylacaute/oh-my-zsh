@@ -11,6 +11,8 @@ export JAVA_COMPILER="$JAVA_HOME/bin/javac"
 export PATH="${JAVA_HOME}/bin:$PATH"
 export PATH="${IDEA_HOME}/bin:$PATH"
 
+export MAVEN_OPTS="-Xmx512m"
+
 # Compilation flags
 export ARCHFLAGS="-arch x86_64"
 
