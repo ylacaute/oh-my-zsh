@@ -43,3 +43,5 @@ alias -s hxx='emacs'
 alias -s hcc='emacs'
 alias -s tex='emacs'
 
+# MEMO EMACS
+# Disable tard identation on paste: electric-indent-mode 0
